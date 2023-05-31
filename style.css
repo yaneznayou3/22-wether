@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,700);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 227px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:linear-gradient(90deg, rgba(255,222,0,1) 0%, rgba(136,0,255,1) 100%);
+  border-bottom: 2px solid black;
+} 
+#textHeader{
+  font-family: "Rubick", sans-serif  ;
+  color:white;
+  margin: 15px;
+}
+#inputForm{
+  background-color: white;
+  display: flex;
+  border: white;
+  height: 30px;
+  margin-top: 5px;
+  outline: none;
+  font-size: 17px;
+  
+}
+#Form{
+  height: 40px;
+  width: 300px;
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+
+}
+#buttonForm{
+  outline: none;
+  background-color: lightskyblue;
+  border: white;
+  width: 50px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 2px;
+  
+}
+#buttonForm:hover{
+  cursor: pointer;
+  background-color:#4180ec
+}
+.card{
+  width:315px ;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 4px 15px 2px #0011ff78 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 7px;
+  border-radius: 8px;
+  margin: 0 auto;
+  
+}
+img{
+  height: 150px;
+  width: 150px;
+}
+.card-city{
+  display: flex;
+  width: 100%;
+}
+.card-weather{
+  display: flex;
+  width: 100%;
+}
+
+
+
+
